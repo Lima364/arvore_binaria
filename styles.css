@@ -1,0 +1,30 @@
+.root {
+    position: relative !important;
+    overflow-x: auto;
+    margin:0 auto;
+    padding:0;
+    display:block;
+    text-align:center;
+    background-color: #ddd;
+}
+.node {
+    width: auto;
+    height:auto;
+    white-space: nowrap;
+}
+.lft, .rgt {
+    margin:5px;
+    margin-top: 20px;
+    min-width:60px;
+    min-height:60px;
+    display: inline-block;
+    vertical-align: top;
+}
+.rgt {
+    border:1px solid #000;
+    background-color: #ccc;
+}
+.lft {
+    border:1px solid #fff;
+    background-color: #eee;
+}
